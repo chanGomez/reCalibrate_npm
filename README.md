@@ -1,4 +1,4 @@
-# reCalibrate
+# ⇲ reCalibrate ✳️
 
 A npm package that lets you adjust the width and height of components in real time using a drag feature while in development.
 
