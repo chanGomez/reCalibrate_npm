@@ -56,7 +56,7 @@ import "../App.css";
     // }, []);
   //---------------------------
 
-const ReCalibrate = ({ children }) => {
+export const ReCalibrate = ({ children }) => {
   // console.log(children)
   const parentRef = useRef(null);
   const childRef = useRef(null);
@@ -144,5 +144,3 @@ function changeBottom(margin) {
   console.log(finalMargin + "px");
   return finalMargin + "px";
 }
-
-export default ReCalibrate;
