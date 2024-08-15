@@ -4,7 +4,7 @@ A npm package that lets you adjust the width and height of components in real ti
 
 ```js
 <ReCalibrate>
-  <div className="one_simple_container">
+  <div className="a-button-for-example">
     <p>I can now be changed!</p>
   </div>
 </ReCalibrate>
@@ -24,11 +24,10 @@ Here's how to use it:
 
 ```js
 // ES6
-import ReCalibrate from 'ReCalibrate'; // The default
+import { ReCalibrate } from "recalibrate"; // The default
 
 // CommonJS
-let ReCalibrate = require('ReCalibrate');
-let ReCalibrate = ReCalibrate;
+const { ReCalibrate } = require("recalibrate");
 ```
 
 ## `<ReCalibrate>`
